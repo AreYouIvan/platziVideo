@@ -80,21 +80,35 @@
       }
           /* Main block */
       .main {
-        display: block;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         height: 300px;
         width: 100%;
       }
       .main__title {
-        width: 300px;
+        width: 500px;
+        height: auto;
+        align-self: flex-end;
+        text-align: center;
       }
       .main__input {
+        width: 70%;
+        height: 40px;
+        align-self: flex-start;
+        margin: 20px 0 0;
         border: 2px solid white;
         border-radius: 25px;
-        outline: none;
-        height: 40px;
-        width: 300px;
         padding: 0 30px;
+        background-color: rgba(255, 255, 255, 0.1);
+        outline: none;
+        color: white;
+        font-family: "Mulish", sans-serif;
+      }
+
+      ::placeholder {
+        color: white;
       }
     </style>
     <title>Platzi Video: Nunca pares de aprender</title>
