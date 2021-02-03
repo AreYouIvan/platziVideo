@@ -35,30 +35,132 @@ header img {
   min-height: calc(100vh - 200px);
 }
 
+.login__title {
+  margin-bottom: 10px;
+}
+
 .login__container {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: solid white 2px;
-    border-radius: 30px;
-    padding: 70px 60px 40px;
-    min-height: 700px;
-    width: 300px;
+  min-height: 700px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid white 2px;
+  border-radius: 30px;
+  padding: 50px 30px 40px;
 }
 
 .login__form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.login__check, .login__social-media, .login_register {
-    font-size: 14px;
-    font-weight: 300;
-    
+.login__check,
+.login__social-media,
+.login__register {
+  font-size: 14px;
+  font-weight: 300;
 }
-
 
 .login__check {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.login__check label {
+  cursor: pointer;
 
 }
 
+.login__check label input {
+  margin: auto 4px auto 0;
+  cursor: pointer;
+
+}
+
+.login__check a {
+  text-decoration: none;
+  color: white;
+}
+
+.login__check a:hover {
+  text-decoration: underline;
+}
+
+.login__social-media div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+
+.login__social-media img {
+  width: 25px;
+}
+
+.login__register a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.login__register a:hover {
+  text-decoration: underline;
+}
+
+.login__input {
+  height: 50px;
+  border: 0;
+  border-bottom: 2px solid white;
+  padding: 0 20px;
+  margin: 10px 0;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.login__input::placeholder {
+  color: white;
+}
+
+.login__button {
+  height: 40px;
+  border-radius: 25px;
+  border: 0;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.3 );
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+
+}
+
+.footer {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ab88ff;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 30px
+
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
