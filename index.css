@@ -71,20 +71,16 @@ ul:hover {
   width: 100%;
   height: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .main__title {
-  width: 500px;
-  height: auto;
-  align-self: flex-end;
   text-align: center;
 }
 .main__input {
   width: 70%;
   height: 40px;
-  align-self: flex-start;
   margin: 20px 0 0;
   border: 2px solid white;
   border-radius: 25px;
