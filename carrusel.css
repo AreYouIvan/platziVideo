@@ -1,5 +1,3 @@
-
-
 .carousel {
   width: 100%;
   overflow: scroll;
@@ -9,9 +7,8 @@
 
 .carousel__container {
   white-space: nowrap;
-  margin: 70px 0;
+  margin: 40px 0;
   padding-bottom: 10px;
-
 }
 
 .carousel-item {
@@ -48,10 +45,29 @@ Agregamos opacidad
   opacity: 1;
 }
 
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 10px;
+  background: transparent;
+  border-radius: 10px;
+}
+/* ::-webkit-scrollbar:hover {} <-- hover a la barra scroll */
+
+/* ::-webkit-scrollbar:hover:active {} <-- hover a la barra scroll activa */
+
 .carousel-item img {
   width: 200px;
   height: 250px;
   object-fit: cover;
+}
+
+.carousel__title {
+  padding: 0 15px;
+  margin: 20px 0 0 0;
 }
 
 .carousel-item__details {
@@ -74,7 +90,7 @@ Agregamos opacidad
   opacity: 1;
 }
 
-.icons img{
+.icons img {
   width: 25px;
   height: 25px;
 }
