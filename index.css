@@ -91,6 +91,7 @@ ul:hover {
   outline: none;
   color: white;
   font-family: "Mulish", sans-serif;
+  font-size: 16px;
 }
 
 ::placeholder {
