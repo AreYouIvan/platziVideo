@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Header block */
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21c08b;
+}
+
+header img {
+  width: 200px;
+}
+
+.login {
+  background: linear-gradient(#21c08b, #ab88ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid white 2px;
+    border-radius: 30px;
+    padding: 70px 60px 40px;
+    min-height: 700px;
+    width: 300px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__check, .login__social-media, .login_register {
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+
+.login__check {
+    display: flex;
+    justify-content: center;
+
+}
+
